@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/CCharlieLi/node-event-storage.svg?branch=master)](https://travis-ci.org/CCharlieLi/node-event-storage)
+
 ## Introduction
 
 A lib that can manage, dispatch, record events for easily implementing event driving, event sourcing and CQRS. Inspired by Redux.
