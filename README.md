@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/CCharlieLi/node-event-storage.svg?branch=master)](https://travis-ci.org/CCharlieLi/node-event-storage)
 
+[![Coverage Status](https://coveralls.io/repos/github/CCharlieLi/node-event-storage/badge.svg?branch=master)](https://coveralls.io/github/CCharlieLi/node-event-storage?branch=master)
+
 ## Introduction
 
 A lib that can manage, dispatch, record events for easily implementing event driving, event sourcing and CQRS. Inspired by Redux.
