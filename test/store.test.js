@@ -2,7 +2,7 @@
 
 const chai = require('chai');
 const assert = chai.assert;
-const { EventStore } = require('../');
+const EventStore = require('../').EventStore;
 
 const reducer = () => {};
 const model = {};
