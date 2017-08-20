@@ -3,7 +3,29 @@
   "version": "0.0.1",
   "description": "A event lib for easily implementing event driving, event sourcing and CQRS. Inspired by Redux. ",
   "main": "index.js",
+  "scripts": {
+    "pretest": "eslint . --fix",
+    "test": "mocha -b --timeout 5000 --reporter spec test/*.test.js"
+  },
+  "keywords": [
+    "event",
+    "event-store",
+    "redux",
+    "node",
+    "cqrs",
+    "event-sourcing",
+    "event-driving"
+  ],
   "repository": "git@github.com:CCharlieLi/node-event-storage.git",
   "author": "CCharlieLi <ccharlieli@live.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "file-register": "^0.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "eslint": "^4.5.0",
+    "eslint-config-wcl-backend": "^0.1.1",
+    "mocha": "^3.5.0"
+  }
 }
