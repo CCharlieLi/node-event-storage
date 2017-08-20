@@ -1,0 +1,9 @@
+{
+  "name": "node-event-storage",
+  "version": "0.0.1",
+  "description": "A event lib for easily implementing event driving, event sourcing and CQRS. Inspired by Redux. ",
+  "main": "index.js",
+  "repository": "git@github.com:CCharlieLi/node-event-storage.git",
+  "author": "CCharlieLi <ccharlieli@live.com>",
+  "license": "MIT"
+}
